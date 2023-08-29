@@ -1,5 +1,5 @@
 const square = (fig) => {
-  console.log(fig ** 2);
+  return fig ** 2;
 }
 
-square(5);
+console.log(square(10));
